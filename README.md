@@ -1,6 +1,8 @@
-# Charlie.Gateway
+# Charlie.Gateway (Ocelot)
 
-# Team Charlie
+This project implements a microservices-based architecture. The system leverages RabbitMQ for communication between services.The architecture is built using RESTful APIs, and MySQL databases back individual services.
+
+![title](https://github.com/MrFrolin/Charlie.Gateway/blob/master/Charlie.Overview.png)
 
 
 ## How to run
@@ -11,21 +13,19 @@
 
 ## Links
 
-Figge:
+**Customer:**
 - [Charlie.Customer.API](https://github.com/FiggeAhlberg/Charlie.Customer.API)
 - [Charlie.Customer](https://github.com/FiggeAhlberg/Charlie.Customer)
 
-Philip:
+**Product:**
 - [Charlie.Product.API](https://github.com/MrFrolin/Charlie.Product.API)
 - [Charlie.Product](https://github.com/MrFrolin/Charlie.Product)
   
-Anton:
-
+**Order:**
 - [Charlie.Order.API](https://github.com/AntonMalm/Charlie.Order.API)
 - [Charlie.Order](https://github.com/AntonMalm/Charlie.Order)
 
-Tobias
-
+**Payment:**
 - [Charlie.Payment](https://github.com/tobiasehlme/Charlie.Payment)
 
 # API Documentation for Charlie.Gateway (Ocelot Gateway)
