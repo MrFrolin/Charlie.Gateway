@@ -21,7 +21,7 @@ services:
 
   # Ocelot Gateway
   charlie-gateway:
-    image: tobbelito/charlie-gateway:latest
+    image: mrfrolin/charlie-gateway:latest
     container_name: charlie-gateway
     ports:
       - "5000:8080" # Map port 80 inside the container to 5000 on your host
